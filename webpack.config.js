@@ -17,7 +17,7 @@ module.exports = {
         loaders: [
             {
                 test: /\.md$/,
-                loader: "html!markdown-hexo"
+                loader: "html!markdown-hexo-loader"
             },
             {
                 test: /\.js$/,

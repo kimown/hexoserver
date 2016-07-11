@@ -5,7 +5,6 @@ a server for hexo ,using webpack-dev-server, react-hot
 
 HOW TO USE:
 
-
 ```
 cd /tmp
 hexo init blog
@@ -15,25 +14,31 @@ hexo g
 npm install hexoserver-cli -g
 hexoserver
 ```
-Open http://localhost:4001/ ,and then click the article named "mydemo",
-then open a new terminal
+Open [http://localhost:4001/](http://localhost:4001/)
+
+Click the article named "mydemo",
+
+Open a new terminal
 
 ```
 cd /tmp/blog/source/_posts/
 vi mydemo.md
 ```
 
-Add some markdwon content,here are some demos.[See more](https://guides.github.com/features/mastering-markdown/):
+When use :w, you can see the page show the changes In real time.
 
 
 
+Add some markdwon content,here are some demos.
 
-```
 \`\`\`javascript
 if (isAwesome){
   return true
 }
 \`\`\`
+
+
+```
 # This is an <h1> tag
 ## This is an <h2> tag
 ###### This is an <h6> tag
@@ -47,5 +52,14 @@ As Kanye West said:
 
 ```
 
+
+
+YOU CAN IGNORE THE:
+```
+title:
+date:
+tags:
+```
+It is not a mistake ,I will fix it in the future version.
 
 

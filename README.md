@@ -19,19 +19,17 @@ hexo g
 npm install hexoserver-cli -g
 hexoserver
 ```
-Open [http://localhost:4001/](http://localhost:4001/)
-
-Click the article named "mydemo",
-
-Open a new terminal
+Open [http://localhost:4001/](http://localhost:4001/),click the article named "mydemo".
 
 
-When use :w, you can see the page show the changes In real time.
+Open a new terminal,
+```
+cd /tmp/blog/source/_posts/
+vi mydemo.md
 
+```
 
-
-Add some markdwon content,here are some demos.
-
+Add some code.
 
 <pre>
 
@@ -40,6 +38,13 @@ let a = "Hello World!";
 alert('Hello syntax highlighting.');
 ```
 </pre>
+
+
+When use :w, you can see the page show the changes In real time.
+
+
+
+Add some other markdwon content,here are some demos.
 
 
 ```

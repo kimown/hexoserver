@@ -1,6 +1,11 @@
 # hexoserver
 a server for hexo ,using webpack-dev-server, react-hot
 
+You can skip these phase If You have installed them
+```
+npm install npm -g
+npm install hexo-cli -g
+```
 
 
 HOW TO USE:
@@ -20,10 +25,6 @@ Click the article named "mydemo",
 
 Open a new terminal
 
-```
-cd /tmp/blog/source/_posts/
-vi mydemo.md
-```
 
 When use :w, you can see the page show the changes In real time.
 
@@ -31,14 +32,18 @@ When use :w, you can see the page show the changes In real time.
 
 Add some markdwon content,here are some demos.
 
-\`\`\`javascript
-if (isAwesome){
-  return true
-}
-\`\`\`
+
+<pre>
+
+```javascript
+let a = "Hello World!";
+alert('Hello syntax highlighting.');
+```
+</pre>
 
 
 ```
+
 # This is an <h1> tag
 ## This is an <h2> tag
 ###### This is an <h6> tag

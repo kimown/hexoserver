@@ -1,6 +1,6 @@
 {
   "name": "hexoserver",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "a server for hexo ,using webpack-dev-server, react",
   "main": "devServer.js",
   "scripts": {

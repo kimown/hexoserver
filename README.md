@@ -34,8 +34,8 @@ Add some code.
 <pre>
 
 ```javascript
-let a = "Hello World!";
-alert('Hello syntax highlighting.');
+const self = "hexoserver";
+console.log(`show syntax highlighting,${self}`);
 ```
 </pre>
 
@@ -49,9 +49,8 @@ Add some other markdwon content,here are some demos.
 
 ```
 
-# This is an <h1> tag
-## This is an <h2> tag
-###### This is an <h6> tag
+# This is an h1 tag
+## This is an h2 tag
 
 ![iamge](https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png)
 

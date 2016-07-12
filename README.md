@@ -1,6 +1,9 @@
 # hexoserver
 a server for hexo ,using webpack-dev-server, react-hot
 
+![preview](https://raw.githubusercontent.com/kimown/hexoserver/beta/resources/preview.gif)
+
+
 You can skip these phase If You have installed them
 ```
 npm install npm -g
@@ -53,11 +56,6 @@ Add some other markdwon content,here are some demos.
 ## This is an h2 tag
 
 ![iamge](https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png)
-
-As Kanye West said:
-
-> We're living the future so
-> the present is our past.
 
 ```
 

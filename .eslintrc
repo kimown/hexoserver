@@ -1,0 +1,15 @@
+{
+  // issue: http://stackoverflow.com/questions/30398825/eslint-window-is-not-defined-how-to-allow-global-variables-in-package-json
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "extends": "airbnb",
+  "rules": {
+    // doc: http://eslint.org/docs/user-guide/configuring#configuring-rules
+    "semi": 0,
+    // issue: https://github.com/airbnb/javascript/issues/1169#issuecomment-259308502
+    "comma-dangle": 0,
+    "indent": [2, 2]
+  }
+}

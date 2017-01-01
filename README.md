@@ -32,6 +32,9 @@ vi mydemo.md
 
 ```
 
+If you use windows, you should run `npm install hexoserver --save` manually.
+
+
 Add some code.
 
 <pre>
